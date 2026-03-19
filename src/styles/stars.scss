@@ -1,10 +1,13 @@
+@import 'variables';
+
 .stars {
   display: flex;
-  gap: 4px;
+  border-radius: 0.5px;
+  gap: $star-gap;
 
   &__item {
-    width: 14px;
-    height: 14px;
+    width: $star-size;
+    height: $star-size;
 
     background-image: url(../images/star.svg);
     background-size: contain;
